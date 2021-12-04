@@ -19,6 +19,10 @@
         {
             "type": "vcs",
             "url":  "https://github.com/crasyhorse/PHPUnitFixtureLaravel.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/crasyhorse/PHPUnitFixture.git"
         }
     ],
     "autoload": {
@@ -33,7 +37,8 @@
     },
     "require": {
         "php": "^7.4 | ^8.0",
-        "laravel/framework": "^8.51"
+        "laravel/framework": "^8.51",
+        "crasyhorse/phpunit-fixture": "0.x"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
