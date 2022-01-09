@@ -26,9 +26,11 @@ return [
             'driver' => 'Local',
             'root_path' => implode(DIRECTORY_SEPARATOR, [base_path(), 'tests', 'data', 'default']),
             'default_file_extension' => 'json',
-            [
-                'mime-type' => '*/*',
-                'encoder' => 'base64'
+            'encode' => [
+                [
+                    'mime-type' => '*/*',
+                    'encoder' => 'base64'
+                ]
             ]
         ],
     ],
