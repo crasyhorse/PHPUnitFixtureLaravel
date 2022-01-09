@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1641744852">
+  <project timestamp="1641744852">
+    <file name="/home/fweidinger/workspace/phpunitFixtureLaravel/src/Fixture.php">
+      <class name="CrasyHorse\Testing\Laravel\Fixture" namespace="global">
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="2" coveredconditionals="2" statements="3" coveredstatements="3" elements="7" coveredelements="7"/>
+      </class>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="17" type="stmt" count="4"/>
+      <line num="18" type="stmt" count="4"/>
+      <line num="28" type="method" name="mergeConfiguration" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="30" type="stmt" count="4"/>
+      <metrics loc="32" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="2" coveredconditionals="2" statements="3" coveredstatements="3" elements="7" coveredelements="7"/>
+    </file>
+    <file name="/home/fweidinger/workspace/phpunitFixtureLaravel/src/Providers/PhpUnitFixtureLaravelServiceProvider.php">
+      <class name="CrasyHorse\Testing\Laravel\Providers\PhpUnitFixtureLaravelServiceProvider" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="4" coveredconditionals="4" statements="7" coveredstatements="7" elements="13" coveredelements="13"/>
+      </class>
+      <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="16" type="stmt" count="4"/>
+      <line num="17" type="stmt" count="4"/>
+      <line num="24" type="method" name="boot" visibility="public" complexity="2" crap="2.50" count="4"/>
+      <line num="26" type="stmt" count="4"/>
+      <line num="27" type="stmt" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <line num="29" type="stmt" count="4"/>
+      <line num="31" type="stmt" count="4"/>
+      <metrics loc="32" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="4" coveredconditionals="4" statements="7" coveredstatements="7" elements="13" coveredelements="13"/>
+    </file>
+    <file name="/home/fweidinger/workspace/phpunitFixtureLaravel/src/config/fixture.php">
+      <line num="15" type="stmt" count="4"/>
+      <line num="26" type="stmt" count="4"/>
+      <line num="27" type="stmt" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <metrics loc="37" ncloc="28" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="4" coveredelements="4"/>
+    </file>
+    <metrics files="3" loc="101" ncloc="68" classes="2" methods="4" coveredmethods="4" conditionals="6" coveredconditionals="6" statements="14" coveredstatements="14" elements="24" coveredelements="24"/>
+  </project>
+</coverage>
