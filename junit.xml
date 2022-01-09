@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="4" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.895492">
+    <testsuite name="Unit" tests="4" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.895492">
+      <testsuite name="CrasyHorse\Tests\Unit\FixtureTest" file="/home/fweidinger/workspace/phpunitFixtureLaravel/tests/Unit/FixtureTest.php" tests="4" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.895492">
+        <testsuite name="CrasyHorse\Tests\Unit\FixtureTest::fixture_loads_fixtures" tests="2" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.460240">
+          <testcase name="fixture_loads_fixtures with data set &quot;a single fixture from a json file.&quot;" class="CrasyHorse\Tests\Unit\FixtureTest" classname="CrasyHorse.Tests.Unit.FixtureTest" file="/home/fweidinger/workspace/phpunitFixtureLaravel/tests/Unit/FixtureTest.php" line="18" assertions="2" time="0.222021"/>
+          <testcase name="fixture_loads_fixtures with data set &quot;a list of two fixtures from json files.&quot;" class="CrasyHorse\Tests\Unit\FixtureTest" classname="CrasyHorse.Tests.Unit.FixtureTest" file="/home/fweidinger/workspace/phpunitFixtureLaravel/tests/Unit/FixtureTest.php" line="18" assertions="2" time="0.238219"/>
+        </testsuite>
+        <testcase name="successfuly_loads_configuration_object_from_config_file" class="CrasyHorse\Tests\Unit\FixtureTest" classname="CrasyHorse.Tests.Unit.FixtureTest" file="/home/fweidinger/workspace/phpunitFixtureLaravel/tests/Unit/FixtureTest.php" line="48" assertions="1" time="0.218011"/>
+        <testcase name="successfuly_merges_custom_configuration_object_with_configuration_from_file" class="CrasyHorse\Tests\Unit\FixtureTest" classname="CrasyHorse.Tests.Unit.FixtureTest" file="/home/fweidinger/workspace/phpunitFixtureLaravel/tests/Unit/FixtureTest.php" line="87" assertions="1" time="0.217241"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
