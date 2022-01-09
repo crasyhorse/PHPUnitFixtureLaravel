@@ -38,7 +38,7 @@
     "require": {
         "php": "^7.4 | ^8.0",
         "laravel/framework": "^8.51",
-        "crasyhorse/phpunit-fixture": "0.x"
+        "crasyhorse/phpunit-fixture": "^0.3.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.4.2",
