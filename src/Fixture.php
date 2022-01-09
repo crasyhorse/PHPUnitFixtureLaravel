@@ -12,7 +12,7 @@ use CrasyHorse\Testing\Fixture as TestingFixture;
  */
 class Fixture extends TestingFixture
 {
-    public function __construct(array $configuration)
+    public function __construct(array $configuration = [])
     {
         parent::__construct($this->mergeConfiguration($configuration));
     }
