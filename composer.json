@@ -1,10 +1,10 @@
 {
     "name": "crasyhorse/phpunit-fixture-laravel",
-    "vesion": "0.2.0",
+    "vesion": "0.2.1",
     "description": "Laravel adapter for crasyhorse/phpunit-fixture",
     "keywords": ["Laravel","Fixture","JSON","Testing"],
     "license": "MIT",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Florian Weidinger",
@@ -53,5 +53,12 @@
         "psalm": "vendor/bin/psalm",
         "psalm-i": "vendor/bin/psalm --show-info=true"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CrasyHorse\\Testing\\Laravel\\Providers\\PhpUnitFixtureLaravelServiceProvider"
+            ]
+        }
+    }
 }

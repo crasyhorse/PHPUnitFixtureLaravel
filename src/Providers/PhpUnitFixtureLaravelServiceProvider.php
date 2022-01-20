@@ -25,7 +25,7 @@ class PhpUnitFixtureLaravelServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-              __DIR__.'/../config/fixture.php' => config_path('fixture.php'),
+                __DIR__.'/../config/fixture.php' => config_path('fixture.php'),
             ], 'fixture:config');
         }
     }
