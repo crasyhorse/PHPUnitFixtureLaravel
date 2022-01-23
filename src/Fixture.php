@@ -21,12 +21,12 @@ class Fixture extends TestingFixture
      * Merges the configuration object from config/fixture.php with a
      * custom config object.
      *
-     * @param array $config The custom configuration object to merge with config/fixture.php
+     * @param array $configuration The custom configuration object to merge with config/fixture.php
      *
      * @return array
      */
     public function mergeConfiguration(array $configuration): array
     {
-        return array_merge_recursive(config('fixture', []), $configuration);
+        return array_merge_recursive((array)config('fixture', []), $configuration);
     }
 }
