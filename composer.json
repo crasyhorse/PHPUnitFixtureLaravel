@@ -1,6 +1,6 @@
 {
     "name": "crasyhorse/phpunit-fixture-laravel",
-    "vesion": "0.2.1",
+    "vesion": "0.2.2",
     "description": "Laravel adapter for crasyhorse/phpunit-fixture.",
     "keywords": ["Laravel","Fixture","JSON","Testing"],
     "license": "MIT",
