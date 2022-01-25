@@ -34,7 +34,7 @@ class Fixture extends TestingFixture
     public function mergeConfiguration(array $configuration): array
     {
         try {
-            $config = array_merge_recursive(config('fixture', []), $configuration);
+            $config = array_merge_recursive((array)config('fixture', []), $configuration);
         } catch (BindingResolutionException $e) {
             return $configuration;
         }
