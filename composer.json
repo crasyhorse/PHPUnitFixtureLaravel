@@ -1,7 +1,7 @@
 {
     "name": "crasyhorse/phpunit-fixture-laravel",
-    "vesion": "0.2.1",
-    "description": "Laravel adapter for crasyhorse/phpunit-fixture",
+    "vesion": "0.2.2",
+    "description": "Laravel adapter for crasyhorse/phpunit-fixture.",
     "keywords": ["Laravel","Fixture","JSON","Testing"],
     "license": "MIT",
     "type": "library",
@@ -12,10 +12,6 @@
         }
     ],
     "repositories": [
-        {
-            "type": "vcs",
-            "url":  "ssh://git@gitea.sysz.dom:32022/Packages/phpUnitFixtureLaravel.git"
-        },
         {
             "type": "vcs",
             "url":  "https://github.com/crasyhorse/PHPUnitFixtureLaravel.git"
